@@ -7,8 +7,10 @@
         <script src="app.js"></script>
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
-    <body>
-      <h1>Ultimate Recipe Book of Sarnyai Ákos</h1>
+    <body class="container">
+      
+      <h1 class="site-header">Ultimate Recipe Book of Sarnyai Ákos</h1>
+
       <div class="navbar-wrap">
         <h2>Recipes:</h2>
           <input class="recipe-button" type="button" value="Pulled Pork" onclick="location.href='pork.html'"/>
@@ -19,15 +21,38 @@
           <input class="recipe-button" type="button" value="Spring Rolls" onclick="location.href='rolls.html'"/>
       </div>
 
-      <div class="main-content-wrap">
+      <div class="main-pic">
+        <img class="main-img" src="img/burger.PNG" alt="This is my favorite burger">
+      </div>
+      
+      <div class="main-content-wrap"></div>
+        <h2>About Me:</h2>
+        <header class="profile-header">
+          <div class="card">
+            <div class="head">
+              <div class="profile-picture">
+                <img class="profile-pic" src="img/profile_picture.jpg" alt="Sarnyai Ákos">
+              </div>
+              <div class="personal-data">
+                <h2>Sarnyai Ákos</h2>
+                <h2>Psychologyst</h2>
+                <h3><i class="fa fa-map-marker"></i> Szeged, HU</h3>
+              </div>
+            </div>
+            <div class="content">
+              <p class="about">I'm a hungarian psychologyst, Junior Webdeveloper and a Hobby Chef</p>
+              <p class="about">I started to learn programming six months ago beside my university studies, and I was looking for ways to improve my informatic skills. I had 2 semesters in Python programming at the university, and I finished 3 online JavaScript courses on the Udemy’s site.  Besides these, I learned HTML, CSS and jQuery to. My strengths are : I have good logical skills, I’m a good team worker, I always keep the deadlines and I’m very flexible with my schedule.</p>
+            </div>
+          </div>
+        </header>
       </div>
 
       <div class="siedebar-wrap">
         <h2>Contact me via:</h2>
-          <a href="https://facebook.com/sarnyaia9#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-          <a href="https://www.linkedin.com/in/sarnyai-akos-a872281aa/#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-          <a href="https://instagram.com/sarnyaia/#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-          <a href="https://github.com/sarnyaia1?tab=repositories#"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://facebook.com/sarnyaia9#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/sarnyai-akos-a872281aa/#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://instagram.com/sarnyaia/#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <a href="https://github.com/sarnyaia1?tab=repositories#"><i class="fa fa-github" aria-hidden="true"></i></a>
         <h2>Or:</h2>
         <input class="subscribe" name="name" placeholder="Please add your name..." type="text" value="">
         <input class="subscribe" name="email" placeholder="Please add your email address..." type="text" value="">
