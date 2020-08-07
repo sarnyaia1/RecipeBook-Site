@@ -177,10 +177,10 @@ li {
 
 ol li {
 	width: 90%;
-	margin-top: 15px;
+	margin-top: 12;
 	margin-left: 15px;
 	list-style: decimal;
-	font-size: 12px;
+	font-size: 10px;
 	line-height: 1.2;
 }
 
