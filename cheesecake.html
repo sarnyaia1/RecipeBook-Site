@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-        <title>Project: Recipe book</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="app.js"></script>
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cookbook</title>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
-  <body>
-    <h1>Ultimate Recipe Book of Sarnyai Ákos</h1>
-    <div class="navbar-wrap">
-      <input class="recipe-button" type="button" value="Home Page" onclick="location.href='index.html'"/>
-      <input class="recipe-button" type="button" value="Pulled Pork" onclick="location.href='pork.html'"/>
-      <input class="recipe-button" type="button" value="Kossuth Burger" onclick="location.href='burger.html'"/>
-      <input class="recipe-button" type="button" value="Gong-bao Chicken" onclick="location.href='gong_bao.html'"/>
-      <input class="recipe-button" type="button" value="Quesadilla" onclick="location.href='quesadilla.html'"/>
-      <input class="recipe-button" type="button" value="Spring Rolls" onclick="location.href='rolls.html'"/>
+  <body class="container">
+
+    <div class="header">
+      <h1 class="title">Sarnyai's Restaurant</h1>
+      <i class="logo fa fa-cutlery" aria-hidden="true"></i>
     </div>
 
-    <div class="main-content-wrap">
-      <h2>Philadelphia Cheesecake</h2>
-      <img src="img/cheesecake.PNG" alt="Philadelphia Cheesecake">
-      <p><strong>Ingredients:</strong></p>
+    <div class="menu">
+      <a style="margin-left: 150px;" class="pointer" onclick="location.href='index.html'">Home Page</a>
+    </div>
+
+    <div class="main">
+      <h2 class="secondary-title">Philadelphia Cheesecake</h2>
+      <div class ="food-pic">
+        <img src="img/cheesecake.PNG" alt="Philadelphia Cheesecake">
+      </div>
+      <h2 class="secondary-title">Ingredients:</h2>
       <ul>
         <li>nonstick cooking spray, for greasing</li>
         <li>250g graham cracker</li>
@@ -32,9 +36,8 @@
         <li>200ml heavy cream</li>
         <li>4 large eggs</li>
       </ul>
-
-      <p><strong>Time: 45 minutes</strong></p>
-      <p><strong>Steps:</strong></p> 
+      <h2 class="secondary-title">Time:  45 minutes</h2>
+      <h2 class="secondary-title">Steps:</h2>
       <ol>
         <li>Preheat the oven to 350˚F (180˚C). Grease a 10-inch (25 cm) springform pan with nonstick spray. Line the inside edges of the pan with parchment paper.</li>
         <li>In the bowl of a food processor, combine the graham crackers, 1 tablespoon of sugar, and the melted butter. Pulse to combine until the texture is similar to wet sand.</li>
@@ -45,22 +48,11 @@
         <li>Enjoy!</li>
       </ol>
 
-      <div class="siedebar-wrap">
-        <h2>Contact me via:</h2>
-          <a href="https://facebook.com/sarnyaia9#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-          <a href="https://www.linkedin.com/in/sarnyai-akos-a872281aa/#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-          <a href="https://instagram.com/sarnyaia/#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-          <a href="https://github.com/sarnyaia1?tab=repositories#"><i class="fa fa-github" aria-hidden="true"></i></a>
-        <h2>Or:</h2>
-        <input class="subscribe" name="name" placeholder="Please add your name..." type="text" value="">
-        <input class="subscribe" name="email" placeholder="Please add your email address..." type="text" value="">
-        <button><span>Submit</span></button>
-      </div>
     </div>
 
-    <footer class="footer-wrap">
-      <small>Copyright © 2020, Szeged</small>
-   </footer>
+    <footer class="footer">
+      <p class="license">Copyright © 2020, Szeged</p>
+    </footer>
+
   </body>
 </html>
-  
