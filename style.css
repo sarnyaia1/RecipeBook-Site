@@ -41,7 +41,7 @@
 }
 
 a {
-	margin: 10px;
+	margin: 5px;
 	color: white;
 	text-decoration: none;
 }
@@ -56,6 +56,7 @@ a.pointer {
 .main {
   text-align: center;
   height: 100%;
+  overflow: scroll;
 }
 
 .secondary-title {
@@ -80,7 +81,7 @@ a.pointer {
 
 .social {
 	color: rgb(1, 84, 100);
-	padding: 20px;
+	padding: 15px;
 	margin: 0px;
 }
 
