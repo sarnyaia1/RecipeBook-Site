@@ -190,10 +190,9 @@ ol li {
 
 .footer {
 	background-color: rgb(1, 84, 100);
-	font-size: 2rem;
     color: whitesmoke;
 	text-align: center;
-	font-size: 10px;
+	font-size: 0.8rem;
 }
 
 .header,
@@ -221,12 +220,14 @@ ol li {
 		"header header header"
 		"menu main sidebar"
 		"footer footer footer";
-		grid-template-columns: 150px 1fr 150px;
+		grid-template-columns: 200px 1fr 150px;
 		grid-template-rows: auto 1fr auto;
 		grid-gap: 10px;
 		height: 100vh;
 		background: url('img/background.png') repeat center;
 	}
+
+	.sidebar { grid-area: sidebar; }
 
 	.header {
 		background-color: rgb(1, 84, 100);
@@ -234,6 +235,48 @@ ol li {
 		text-align: center;
 		width: 98%;
 		margin: auto;
+		border-radius: 5px;
+	}
+
+	/* === NAVIGATION MENU === */
+
+	.menu {
+		background-color: rgb(112, 163, 173);
+		color: #ffffff;
+		width: 150px;
+		border-radius: 10px;
+	}
+
+	a {
+		margin: 5px;
+		margin-top: 50px;
+		color: white;
+		text-decoration: none;
+		display: block;
+		font-size: 2rem;
+	}
+
+	.menu-nav {
+		font-size: 2rem;
+		text-decoration: underline;
+		text-align: center;
+		margin-left: 0px;
+	}
+
+	.recipe-button:hover {
+		color: whitesmoke;
+		transform: scale(1.1);
+		transition: all 0.5s ease-in-out;
+	}
+
+	.menu-nav:hover {
+		color: whitesmoke;
+		transform: scale(1.1);
+		transition: all 0.5s ease-in-out;
+	}
+
+	a.pointer {
+		cursor: pointer;
 	}
 
 	.menu,
@@ -246,15 +289,39 @@ ol li {
 	.main {
 		overflow: visible;
 	}
+
+	/* === Recipe View Style === */
+
+	img {
+		width: 250px;
+		box-shadow: hsla(0, 0%, 0%, .3) 5px 5px 60px;
+	}
+
+	.secondary-title {
+		font-size: 1.8rem;
+	}
+
+	.food-pic {
+		margin: 25px;
+	}
+
+	li {
+		line-height: 1.5;
+		font-size: 1.4rem;
+	}
+
+	ol li {
+		width: 70%;
+		margin-top: 25px;
+		margin-left: auto;
+		margin-right: auto;
+		list-style: decimal;
+		font-size: 1.3rem;
+		line-height: 1.5;
+		text-align: left;
+	}
 	
 	.footer {
-		background-color:  rgb(1, 84, 100);
-		color: #ffffff;
-		font-size: 2rem;
-		text-align: center;
-		width: 98%;
-		margin: auto;
-		height: 10px;
-		font-size: 12px;
+		font-size: 1.2rem;
 	}
 }
