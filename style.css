@@ -115,6 +115,7 @@ a.pointer {
 	box-shadow: hsla(0, 0%, 0%, .4) 5px 5px 60px;
 	margin-left: 15px;
 	margin-right: 15px;
+	margin-bottom: 30px;
 }
 
 .profile-pic {
@@ -178,11 +179,11 @@ li {
 
 ol li {
 	width: 90%;
-	margin-top: 12;
+	margin-top: 15px;
 	margin-left: 15px;
 	list-style: decimal;
-	font-size: 10px;
-	line-height: 1.2;
+	font-size: 15px;
+	line-height: 1.5;
 }
 
 /* === FOOTER STYLE ===*/ 
