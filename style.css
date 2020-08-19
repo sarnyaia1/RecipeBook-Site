@@ -209,6 +209,7 @@ ol li {
 .footer { grid-area: footer; }
 .title { grid-area: title; }
 .logo { grid-area: logo; }
+.sidebar { grid-area: sidebar; }
 
 
 /* === Resize to tablet and PC === */
@@ -226,7 +227,7 @@ ol li {
 		height: 100vh;
 		background: url('img/background.png') repeat center;
 	}
-	
+
 	.header {
 		background-color: rgb(1, 84, 100);
 		font-size: 2rem;
@@ -240,6 +241,10 @@ ol li {
 	  background-color: rgb(112, 163, 173);
 	  color: #ffffff;
 	  margin: 5px auto 5px auto;
+	}
+
+	.main {
+		overflow: visible;
 	}
 	
 	.footer {
