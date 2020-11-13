@@ -16,7 +16,7 @@
 /* === HEADER PART === */
 
 .header {
-	background-color: rgb(1, 84, 100);
+	background-color: #92817A;
 	grid-template-areas:
 	"title"
 	"logo";
@@ -36,18 +36,23 @@
 /* === NAVIGATION MENU === */
 
 .menu {
-	background-color: rgb(112, 163, 173);
-	color: #ffffff;
+	background-color: #F1DABF;
+	color: #04030F;
+	border: 1px solid black;
+	text-align: center;
+}
+.menu-icon {
+	color: #04030F;
+	margin: 10px;
 }
 
-a {
-	margin: 5px;
-	color: white;
-	text-decoration: none;
-}
-
-a.pointer {
-	cursor: pointer;
+.menu-nav {
+	text-align: center;
+	background-color: #92817A;
+	border-radius: 5px;
+	padding: 5px;
+	font-weight: bold;
+	font-family: 'Dancing Script', cursive;
 }
 
 
@@ -68,8 +73,8 @@ a.pointer {
 }
 
 .recipe-button {
-	color: white;
-    background-color: rgb(112, 163, 173);
+	color: #04030F;
+    background-color: #F1DABF;
     padding: 15px;
     margin: 20px;
 	border-radius: 10px;
@@ -80,13 +85,13 @@ a.pointer {
 }
 
 .social {
-	color: rgb(1, 84, 100);
+	color: #92817A;
 	padding: 15px;
 	margin: 0px;
 }
 
 .social:hover {
-    color: black;
+    color: #04030F;
 }
 
 .social-sites {
@@ -99,8 +104,8 @@ a.pointer {
 }
 
 .submit-button {
-	color: white;
-	background-color:  rgb(112, 163, 173);
+	color: #04030F;
+	background-color: #F1DABF;
 	border-radius: 5px;
 	padding: 5px;
 	width: 100px;
@@ -109,7 +114,7 @@ a.pointer {
 /* ==== About Me Styling === */
 
 .profile-header {
-	background-color: rgb(112, 163, 173, 0.6);
+	background-color: #F1DABF;
 	margin-top: 100px;
 	border-radius: 5px;
 	box-shadow: hsla(0, 0%, 0%, .4) 5px 5px 60px;
@@ -122,7 +127,7 @@ a.pointer {
 	width: 120px;
 	margin-top: -50px;
 	border-radius: 50%;
-	border: 1px solid rgb(1, 84, 100);
+	border: 1px solid #92817A;
 	box-shadow: hsla(0, 0%, 0%, .3) 5px 5px 60px;
 }
 
@@ -189,7 +194,7 @@ ol li {
 /* === FOOTER STYLE ===*/ 
 
 .footer {
-	background-color: rgb(1, 84, 100);
+	background-color: #92817A;
     color: whitesmoke;
 	text-align: center;
 	font-size: 0.8rem;
@@ -230,19 +235,18 @@ ol li {
 	.sidebar { grid-area: sidebar; }
 
 	.header {
-		background-color: rgb(1, 84, 100);
+		background-color:#92817A;
 		font-size: 2rem;
 		text-align: center;
 		width: 98%;
 		margin: auto;
-		border-radius: 5px;
 	}
 
 	/* === NAVIGATION MENU === */
 
 	.menu {
-		background-color: rgb(112, 163, 173);
-		color: #ffffff;
+		background-color: #F1DABF;
+		color: #04030F;
 		width: 150px;
 		border-radius: 10px;
 	}
@@ -250,38 +254,37 @@ ol li {
 	a {
 		margin: 5px;
 		margin-top: 50px;
-		color: white;
+		color: #04030F;
 		text-decoration: none;
 		display: block;
 		font-size: 2rem;
 	}
 
 	.menu-nav {
-		font-size: 2rem;
-		text-decoration: underline;
+		font-size: 1.8rem;
 		text-align: center;
-		margin-left: 0px;
+		margin: 20px;
+		padding: 10px;
+		background-color: #92817A;
+		border-radius: 5px;
+		font-family: 'Dancing Script', cursive;
 	}
 
 	.recipe-button:hover {
-		color: whitesmoke;
+		color: #04030F;
 		transform: scale(1.1);
 		transition: all 0.5s ease-in-out;
 	}
 
 	.menu-nav:hover {
-		color: whitesmoke;
+		color: #04030F;
 		transform: scale(1.1);
 		transition: all 0.5s ease-in-out;
 	}
 
-	a.pointer {
-		cursor: pointer;
-	}
-
 	.menu,
     .sidebar {
-	  background-color: rgb(112, 163, 173);
+	  background-color: #F1DABF;
 	  color: #ffffff;
 	  margin: 5px auto 5px auto;
 	}
