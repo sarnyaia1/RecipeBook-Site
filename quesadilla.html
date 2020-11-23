@@ -1,59 +1,56 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Project: Recipe book</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="app.js"></script>
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    </head>
-    <body>
-      <h1>Ultimate Recipe Book of Sarnyai Ákos</h1>
-      
-      <div class="menu">
-        <a class="menu-nav" onclick="location.href='index.html'">Home Page</a>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cookbook</title>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body class="container">
+
+    <div class="header">
+      <h1 class="title">Sarnyai's Restaurant</h1>
+      <i class="logo fa fa-cutlery" aria-hidden="true"></i>
+    </div>
+
+    <div class="menu">
+      <input  class="menu-nav" type="button" value="Home" onclick="location.href='index.html'"/>
+      <i class="menu-icon fa fa-home" aria-hidden="true"></i>
+    </div>
+
+    <div class="main">
+      <h2 class="secondary-title">Mexican Quesadilla</h2>
+      <div class ="food-pic">
+        <img class="recipeView-img" src="img/quesadilla.PNG" alt="Quesadilla">
       </div>
-      
-      <div class="main-content-wrap">
-        <h2>Quesadilla</h2>
-        <img src="img/quesadilla.PNG" alt="Quesadilla">
-        <p><strong>Ingredients:</strong></p>
-        <ul>
-          <li>250g chicken breast</li>
-          <li>salt,pepper, chili powder, cumin, cayenne, garlic powder</li>
-          <li>100g bell pepper (red,yellow,green)</li>
-          <li>2 large corn tortillas</li> 
-          <li>1 cup shredded cheddar cheese (100 g), double for 2 quesadillas</li> 
-        </ul>
+      <h2 class="secondary-title">Ingredients:</h2>
+      <ul>
+        <li>250g chicken breast</li>
+        <li>salt,pepper, chili powder, cumin, cayenne, garlic powder</li>
+        <li>100g bell pepper (red,yellow,green)</li>
+        <li>2 large corn tortillas</li> 
+        <li>1 cup shredded cheddar cheese (100 g), double for 2 quesadillas</li> 
+      </ul>
+      <h2 class="secondary-title">Time:  90 minutes</h2>
+      <h2 class="secondary-title">Steps:</h2>
+      <ol>
+          <li>In a large skillet, coat chicken with salt, pepper, chili powder, cumin, cayenne, and garlic powder. Cook 5-7 minutes.</li>
+          <li>Add the peppers and onions and cook for 5-7 minutes, or until they are soft. Remove chicken, onions and peppers from the pan and set aside.</li>
+          <li>Place the tortilla in the skillet and add a layer of cheese on half of the tortilla.</li>
+          <li>Add cooked chicken, peppers and onions. Top with more cheese and fold the tortilla in half.</li>
+          <li>Cook for 6 minutes over medium heat, flipping half way.</li>
+          <li>Garnish with fresh cilantro and serve with pico de gallo, guacamole, and sour cream on the side.</li>
+          <li>Enjoy!</li>
+      </ol>
 
-        <p><strong>Time: 90 minutes</strong></p>
-        <p><strong>Steps:</strong></p> 
-        <ol>
-            <li>In a large skillet, coat chicken with salt, pepper, chili powder, cumin, cayenne, and garlic powder. Cook 5-7 minutes.</li>
-            <li>Add the peppers and onions and cook for 5-7 minutes, or until they are soft. Remove chicken, onions and peppers from the pan and set aside.</li>
-            <li>Place the tortilla in the skillet and add a layer of cheese on half of the tortilla.</li>
-            <li>Add cooked chicken, peppers and onions. Top with more cheese and fold the tortilla in half.</li>
-            <li>Cook for 6 minutes over medium heat, flipping half way.</li>
-            <li>Garnish with fresh cilantro and serve with pico de gallo, guacamole, and sour cream on the side.</li>
-            <li>Enjoy!</li>
-        </ol>
+    </div>
 
-        <div class="siedebar-wrap">
-          <h2>Contact me via:</h2>
-            <a href="https://facebook.com/sarnyaia9#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/in/sarnyai-akos-a872281aa/#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            <a href="https://instagram.com/sarnyaia/#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            <a href="https://github.com/sarnyaia1?tab=repositories#"><i class="fa fa-github" aria-hidden="true"></i></a>
-          <h2>Or:</h2>
-          <input class="subscribe" name="name" placeholder="Please add your name..." type="text" value="">
-          <input class="subscribe" name="email" placeholder="Please add your email address..." type="text" value="">
-          <button><span>Submit</span></button>
-        </div>
-  
-        <footer class="footer-wrap">
-            <small>Copyright © 2020, Szeged</small>
-        </footer>
-  
-      </body>
-  </html>
-  
+    <footer class="footer">
+      <p class="license">Copyright © 2020, Szeged</p>
+    </footer>
+
+  </body>
+</html>

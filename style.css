@@ -13,7 +13,7 @@
   font-family: serif;
 }
 
-/* === HEADER PART === */
+/* === HEADER === */
 
 .header {
 	background-color: #92817A;
@@ -41,16 +41,22 @@
 	border: 1px solid black;
 	text-align: center;
 }
+
+.menu-button {
+	display: inline;
+}
+
 .menu-icon {
 	color: #04030F;
-	margin: 10px;
+	margin: 0px;
 }
 
 .menu-nav {
 	text-align: center;
 	background-color: #92817A;
 	border-radius: 5px;
-	padding: 5px;
+	padding: 3px;
+	margin: 0px;
 	font-weight: bold;
 	font-family: 'Dancing Script', cursive;
 }
@@ -154,16 +160,22 @@
 
 /* === Recipe View Style === */
 
-img {
-	width: 160px;
-	border-radius: 50%;
-	box-shadow: hsla(0, 0%, 0%, .3) 5px 5px 60px;
+.food-img {
+	width: 35%;
+	border: 1px solid #92817A;
+  	border-radius: 4px;
+ 	padding: 5px;
+	box-shadow: hsla(0, 0%, 0%, .5) 5px 5px 60px;
 }
 
-img:hover {
-	transform: scale(1.1);
-	transition: all 0.5s ease-in-out;
+.recipeView-img {
+	width: 50%;
+	border: 1px solid #92817A;
+  	border-radius: 4px;
+ 	padding: 5px;
+	box-shadow: hsla(0, 0%, 0%, .5) 5px 5px 60px;
 }
+
 
 .food-pic {
 	margin: 20px;
@@ -245,10 +257,18 @@ ol li {
 	/* === NAVIGATION MENU === */
 
 	.menu {
+		position: fixed;
+		left: -180px;
+		top: 150px;
 		background-color: #F1DABF;
 		color: #04030F;
-		width: 150px;
+		width: 200px;
 		border-radius: 10px;
+	}
+
+	.menu:hover {
+		left: 10px;
+		transition: all 0.5s ease-in-out;
 	}
 
 	a {
@@ -261,10 +281,23 @@ ol li {
 	}
 
 	.menu-nav {
-		font-size: 1.8rem;
+		font-size: 1.5rem;
 		text-align: center;
 		margin: 20px;
+		margin-right: 25px;
 		padding: 10px;
+		width: 60%;
+		background-color: #92817A;
+		border-radius: 5px;
+		font-family: 'Dancing Script', cursive;
+	}
+
+	.home-nav {
+		font-size: 1.5rem;
+		text-align: center;
+		margin: 0px;
+		padding: 10px;
+		width: 30%;
 		background-color: #92817A;
 		border-radius: 5px;
 		font-family: 'Dancing Script', cursive;
@@ -294,11 +327,14 @@ ol li {
 		overflow: visible;
 	}
 
+	.social {
+		display: inline;
+	}
+
 	/* === Recipe View Style === */
 
-	img {
-		width: 250px;
-		box-shadow: hsla(0, 0%, 0%, .3) 5px 5px 60px;
+	.food-img {
+		width: 35%;
 	}
 
 	.secondary-title {
