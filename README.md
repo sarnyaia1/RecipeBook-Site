@@ -1,2 +1,3 @@
 # Recipe-book
-These are my favorite recipes
+
+https://static-recipe-book.netlify.app/
